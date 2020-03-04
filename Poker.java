@@ -77,12 +77,12 @@ public class Poker {
 	        return AnzahlDoppeltWert(newHand) == 6;
 	    }
 	    
-	    public static boolean FullHouse(int[] newHand) {
-	        return AnzahlDoppeltTyp(newHand) == 8;
+	    public static boolean Vierling(int[] newHand) {
+	        return AnzahlDoppeltWert(newHand) == 8;
 	    }
 	    
-	    public static boolean Vierling(int[] newHand) {
-	        return AnzahlDoppeltWert(newHand) == 12;
+	    public static boolean FullHouse(int[] newHand) {
+	        return AnzahlDoppeltTyp(newHand) == 8;
 	    }
 	    
 	    
